@@ -1,17 +1,28 @@
+# 🔍 Advanced Port Scanner (Python + Nmap)
 
-# Port Scanner
+## 📌 Description
+A Python-based port scanner using Nmap that detects open ports, running services, and service versions of a target system. It also generates automated scan reports for analysis.
 
-A Python-based TCP Port Scanner designed to identify open ports on target systems for educational and authorized security testing.
+---
 
-## Features
-- Scan a specified range of TCP ports
-- Detect open ports
-- Simple command-line interface
-- Fast and lightweight
+## ⚙️ Features
+- Port scanning using Nmap
+- Service & version detection
+- Automated report generation (timestamped)
+- Supports custom port range input
+- Linux (Kali) compatible
 
-## Tech Stack
+---
+
+## 🛠 Tech Stack
 - Python
-- Socket Programming
+- Nmap (python-nmap)
+- Linux (Kali)
+- Networking concepts
 
-## Disclaimer
-This project is intended for educational purposes only. Scan only systems that you own or have explicit authorization to test.
+---
+
+## 🚀 How to Run
+
+```bash
+python3 port_scanner.py
